@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            margin-top: 120px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #00ffcc;
+            font-size: 40px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            background-color: #1a1a1a;
+            color: white;
+            border: 2px solid #00ffcc;
+        }
+
+        button {
+            padding: 10px 30px;
+            background-color: #00ffcc;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00ccaa;
+        }
+
+        .register-link {
+            margin-top: 20px;
+            display: block;
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .register-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>SRI SRINIVASA ENTERPRISES</h1>
+<h2>SPARES MANAGEMENT TRACKER</h2>
+
+<form method="POST">
+    <input type="text" name="name" placeholder="Enter Name" required><br>
+    <input type="password" name="password" placeholder="Enter Password" required><br>
+    <button type="submit">Login</button>
+</form>
+
+<a href="/register" class="register-link">Register New Technician</a>
+
+</body>
+</html>
